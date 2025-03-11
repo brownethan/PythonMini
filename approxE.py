@@ -19,7 +19,7 @@ while (absEr > TOL):
 
 realEr = absEr / math.e
 #Print statements
-outFile.write("The number of points used, N, is: " + str(N)+"/n")
-outFile.write("The measured e is: " + str(appE) + "/n")
-outFile.write("The absolute error is: " + str(absEr) + "/n")
-outFile.write("The relative error is: " + str(realEr) + "/n")
+outFile.write("The number of points used, N, is: " + str(N)+"\n")
+outFile.write("The measured e is: " + str(appE) + "\n")
+outFile.write("The absolute error is: " + str(absEr) + "\n")
+outFile.write("The relative error is: " + str(realEr) + "\n")
